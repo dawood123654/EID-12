@@ -180,7 +180,7 @@ function applyText(name, fontStr) {
   ctx.drawImage(img, 0, 0);
   const x = canvas.width / 2;
   // Position text inside the rectangular frame area (about 78% down)
-  const y = canvas.height * 0.76;
+  const y = canvas.height * 0.75;
   ctx.shadowColor = 'rgba(0,0,0,0.3)';
   ctx.shadowBlur = 8;
   ctx.shadowOffsetX = 1;
